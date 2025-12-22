@@ -1,0 +1,5 @@
+pymupdf
+spacy==3.8.11
+requests
+jinja2
+pyyaml
