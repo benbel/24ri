@@ -1,0 +1,87 @@
+# Place corrections file
+# Format: original_name = correction
+# - Use EXCLUDE to remove from map
+# - Use [lat, lon] for direct coordinates
+# - Use a new name to search instead
+# - Leave empty or remove line to keep original
+
+# False positives (not places)
+Allemands = EXCLUDE
+Anglais = EXCLUDE
+Français = EXCLUDE
+Américains = EXCLUDE
+Sénégalais = EXCLUDE
+Boches = EXCLUDE
+Boche du Chemin des Dames = EXCLUDE
+Officiers = EXCLUDE
+Sous-Officiers = EXCLUDE
+Lutteurs = EXCLUDE
+Tenez = EXCLUDE
+Cramponnez = EXCLUDE
+couronnerez = EXCLUDE
+Pertes = EXCLUDE
+Monument = EXCLUDE
+Grande = EXCLUDE
+Bas = EXCLUDE
+Transporté = EXCLUDE
+Attaquée = EXCLUDE
+Porté = EXCLUDE
+Vache = EXCLUDE
+Plume = EXCLUDE
+Pie = EXCLUDE
+Commun = EXCLUDE
+dégel = EXCLUDE
+drachens = EXCLUDE
+plaine wallonne = EXCLUDE
+
+# Military unit designations
+A.-P. = EXCLUDE
+C.H.R. = EXCLUDE
+C.R.A. = EXCLUDE
+F.M. = EXCLUDE
+P.C. = EXCLUDE
+P.C. bétonnés = EXCLUDE
+
+# Person names (false positives)
+HAMELIN = EXCLUDE
+KEMPF = EXCLUDE
+LELEU = EXCLUDE
+Nicolet = EXCLUDE
+Deleau = EXCLUDE
+Dherse = EXCLUDE
+Denvignes = EXCLUDE
+Berthier = EXCLUDE
+Moreau = EXCLUDE
+Romain = EXCLUDE
+
+# Foreign places (outside France)
+Amérique = EXCLUDE
+Italie = EXCLUDE
+Algérie = EXCLUDE
+Cameroun = EXCLUDE
+Allemagne = EXCLUDE
+Palatinat = EXCLUDE
+Ulm = EXCLUDE
+Iéna = EXCLUDE
+Gênes = EXCLUDE
+Novi = EXCLUDE
+
+# Corrections for better geocoding
+forêt de Saint-Michel = Forêt de Saint-Michel, Ardennes
+gare des Batignolles = Batignolles, Paris
+la Marne = Marne
+l'Aisne = Aisne
+la Meuse = Meuse
+de la Somme = Somme
+Sambre-et-Meuse = Meuse
+pont de Verneuil = Verneuil-sur-Marne
+Champagne = Champagne, France
+Verdun = Verdun, Meuse
+Douaumont = Douaumont, Meuse
+Souville = Fort de Souville, Verdun
+Vaux = Fort de Vaux, Verdun
+Chemin des Dames = Chemin des Dames, Aisne
+Charleroi = Charleroi, Belgique
+Anderlues = Anderlues, Belgique
+Thuin = Thuin, Belgique
+Tahure = Tahure, Marne
