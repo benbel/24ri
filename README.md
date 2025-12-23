@@ -29,9 +29,3 @@ Génère `index.html` et `debug.html` dans `output/webapp/`:
 source .venv/bin/activate
 python src/generate_webpage.py
 ```
-
-## Notes
-
-- pour les dates, elles sont uniques par phrase i.e. 30 peut correspondre à une
-  date dans une phrase, mais pas dans une autre. Idem selon la phrase, le 25
-août peut faire référence à plusieurs années différentes.
