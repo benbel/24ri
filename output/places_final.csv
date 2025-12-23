@@ -1,0 +1,214 @@
+name,latitude,longitude,status
+Paris,48.85675,2.34661,corrected
+Aubervilliers,48.912878,2.386167,found
+Bernay (Eure,49.103211,0.58369,review
+gare des Batignolles,48.883212,2.323584,review
+Bernay,49.089387,0.595349,found
+Rethel,49.509988,4.378836,found
+La Sabotterie,49.5466,4.67099,corrected
+Mézières,49.7735,4.7217,corrected
+Sambre,50.073577,3.646101,validated
+Anderlues,50.406521,4.27287,corrected
+Thuin,50.340924,4.28625,corrected
+Avesnes,50.144176,3.934579,corrected
+Le Nouvion,50.405546,2.881533,found
+Guise,49.900667,3.62985,corrected
+Audigny,49.871104,3.643899,found
+Origny-Sainte-Benoîte,49.83539,3.4997,found
+Laon,49.570287,3.614719,found
+Fismes,49.308235,3.688225,found
+pont de Verneuil,49.088402,3.665804,corrected
+Bouquigny,49.075752,3.687119,corrected
+Troissy,49.080215,3.703603,found
+pont,49.088321,3.665753,corrected
+Ville-sous-Orbais,48.968761,3.678468,found
+Monceau,48.693998,3.437509,corrected
+Saint-Bon,48.678377,3.461181,corrected
+Monceau-les-Provins,48.694647,3.444531,found
+Montmirail,48.871575,3.537796,corrected
+Dormans,49.07008,3.64217,found
+Château-Thierry,49.039064,3.399267,corrected
+Muizon,49.274676,3.893424,found
+Loivre,49.34541,3.979899,corrected
+bois de Brimont,49.340873,4.02442,corrected
+route 44,49.330569,3.963733,corrected
+Cauroy,49.348871,3.923422,corrected
+Godat,49.350942,3.926699,corrected
+La Neuville,49.286986,4.006985,corrected
+Sapigneul,49.419886,3.95008,review
+Canal de l'Aisne à la Marne,49.300994,4.012235,corrected
+Berry-au-Bac,49.401196,3.900366,found
+Jonchery,49.159089,4.460902,corrected
+Arras,50.623112,3.067756,review
+Aix-Noulette,50.424788,2.712577,found
+Fosseux,50.255075,2.563621,found
+Montenescourt,50.292663,2.62819,found
+Grand-Servin,50.406556,2.632837,corrected
+Neuville-Saint-Waast,50.355266,2.757333,found
+Houvin-Houvigneul,50.296927,2.375757,found
+Souchez,50.391452,2.742954,found
+Sibiville,50.297963,2.322613,corrected
+Sericourt,50.294002,2.315184,found
+Roclincourt,50.324194,2.785556,found
+Rebreuviette,50.262733,2.365155,found
+Frévent,50.275987,2.289769,corrected
+Guillaucourt (Somme,49.842844,2.630147,found
+Foucaucourt,49.905008,2.791116,review
+Lamotte-en-Santerre,50.189115,1.822178,corrected
+Herleville,49.863216,2.750625,found
+Maucourt,49.635263,3.072807,found
+Lihons,49.824348,2.76573,found
+Gentelles,49.843523,2.454602,found
+Rouvroy-en-Santerre,49.769342,2.710255,found
+Roye,49.698122,2.781098,found
+Rouvroy,50.398005,2.904972,found
+Saint-Bandry,49.371079,3.164861,found
+Cœuvres,49.394364,3.114189,review
+Laversine,49.351973,3.170574,found
+Soissons,49.377401,3.327152,found
+Villers-Cotterêts,49.250899,3.088746,found
+Sainte- Menehould,49.099215,4.936022,found
+Verdun,49.160338,5.386239,corrected
+Triaucourt,48.935865,5.111092,review
+Vaux,49.209695,5.471444,corrected
+Hardaumont,49.216005,5.469855,corrected
+Douaumont,49.2075,5.424653,corrected
+Belleray,49.131971,5.396004,found
+Nixéville,49.098643,5.31278,review
+Nançois-le-Petit,48.732958,5.324672,corrected
+Ambly-sur-Meuse,49.019567,5.443324,found
+Eparges,49.065075,5.595518,corrected
+Troyon,48.999075,5.465783,corrected
+Souville,49.186405,5.439693,corrected
+Bezonvaux,49.229,5.475,found
+Damloup,49.20199,5.491666,found
+Grands-Houyers,49.212991,5.466988,corrected
+Woëvre,48.582241,5.676766,review
+Gondrecourt,49.245832,5.767717,found
+Lunéville,48.593492,6.497808,found
+Marats-la-Grande,48.881273,5.210529,corrected
+Condé-en-Barrois,48.866124,5.160414,found
+Tréveray,48.591446,5.357196,corrected
+Saint-Amand,48.625804,5.387022,corrected
+Void,48.686774,5.618417,corrected
+Serres,48.691533,6.464948,corrected
+Maixe,48.643743,6.441884,found
+Deuxville,48.617333,6.454645,found
+Crévic,48.639187,6.405629,found
+Pont-Saint-Vincent,48.606575,6.096068,found
+La Ferté-Gaucher,48.781325,3.305744,found
+Sézanne,48.718482,3.721712,found
+Blesmes,49.038311,3.44725,found
+Courboin,48.993472,3.504603,corrected
+Montbazin,48.983915,3.518593,corrected
+Épieds,49.105085,3.444525,corrected
+Villers-sur-Fère,49.178471,3.531405,found
+Villemoyenne,49.178471,3.501001,review
+Dravegny,49.232244,3.639633,found
+Vesle,49.252124,4.02529,review
+Baslieux-lès-Fismes,49.325127,3.711741,found
+Villette,49.292206,3.715005,corrected
+Arcis-le-Ponsart,49.235162,3.694881,found
+Chamigny,48.977834,3.150625,found
+Bussières,48.920057,3.242734,corrected
+Bassevelles,48.92371,3.273313,found
+Tanqueux,48.967906,3.145432,review
+Vierzy,49.292103,3.27317,found
+Couvrelles,49.335569,3.486741,found
+Augy,49.338168,3.513984,corrected
+Vasseny,49.353446,3.486606,found
+Chemin des Dames,49.438233,3.66739,corrected
+Certeaux,49.55084,3.539014,review
+Chevregny,49.47161,3.591836,found
+La Royère,49.446841,3.556415,corrected
+Maast-et-Violaine,49.286064,3.449963,found
+Révillon,49.3672,3.701748,corrected
+plateau de Paissy,49.422898,3.697341,corrected
+Serval-Barbonval,49.33829,3.671656,review
+Cerny,49.443115,3.667799,corrected
+Paissy,49.424786,3.70348,found
+Beuvardes,49.139942,3.488547,found
+Fère – Saponay,49.213525,3.481886,corrected
+Montdidier,49.646558,2.570618,corrected
+Remaugies,49.627638,2.665993,validated
+Saint-Quentin,49.847398,3.28745,found
+Ercheu,49.704502,2.947922,found
+Dury,49.858514,2.274577,found
+Ollezy,49.733653,3.144167,found
+cathédrale de Saint-Quentin,49.841821,3.288196,corrected
+Grand-Séraucourt,49.781364,3.21154,found
+Artemps,49.763977,3.191394,found
+route de Saint-Quentin,49.841821,3.288196,corrected
+Oestres,49.822741,3.245288,review
+Gauchy,49.826081,3.280949,found
+Grugies,49.813366,3.265785,found
+Dallon,49.825987,3.240651,found
+Noyon,49.572451,2.998309,corrected
+Quesmy,49.633038,3.059177,found
+Salency,49.588166,3.04764,found
+Mailly,48.666544,4.202176,corrected
+camp de Sainte-Tanche,48.569599,4.252323,review
+Vitry-la-Ville,48.841614,4.455771,found
+Somme-Suippes,49.117914,4.578358,found
+Pont-Sainte-Maxence,49.309303,2.60379,found
+Verderonne,49.327464,2.492058,found
+Cinqueux,49.318343,2.532266,found
+Cernoy,49.441073,2.537995,found
+Trois-Etots,49.44865,2.535251,review
+Hémévillers,49.466321,2.669684,found
+Elogette,49.438875,2.610935,review
+Neufvy,49.493809,2.673137,review
+Saint-Maur,49.612959,1.915612,corrected
+route de Compiègne,49.243045,2.881758,review
+Ressons,49.531895,2.744559,corrected
+Canny-sur-Matz,49.602124,2.79893,found
+le Haut Matz,49.5622,2.751966,found
+ferme de Canny,49.607179,2.78624,review
+Lassigny,49.595024,2.845555,found
+tour Rolland,49.589206,2.837438,review
+Lataule,49.541154,2.680288,found
+Fresnières,49.622923,2.813712,found
+Haussu,49.623248,2.829244,review
+Catigny,49.637121,2.955561,found
+Cuvilly,49.553092,2.695049,found
+Acy,49.350997,3.409817,found
+Bonneil,49.00552,3.347565,found
+Coincy,49.166851,3.420158,found
+Villeneuve-sur-Fère,49.175922,3.475374,found
+Mont-Notre-Dame,49.291718,3.576586,found
+canal de l'Aisne,49.047921,4.183267,review
+Vieil-Arcy,49.389484,3.625973,review
+Hautes-Bruyères,49.760791,4.268092,review
+Paars,49.327407,3.60099,found
+Seringes,49.199164,3.520083,review
+Cohan,49.211735,3.641534,corrected
+Saint-Gilles,49.2805,3.676812,corrected
+Courlandon,49.312406,3.735364,found
+Meurival,49.358243,3.761284,found
+Baslieux,49.435545,5.755326,found
+Unchair,49.290315,3.747578,found
+Concevreux,49.375427,3.780278,found
+Cuiry-les-Chaudardes,49.386583,3.76998,found
+route de Pontavert,49.439438,3.788257,review
+Corbeny,49.464115,3.824721,validated
+Berrieux,49.487922,3.846598,found
+château de Belval,49.114803,3.85484,corrected
+Goudelancourt,49.647717,3.899579,review
+Sissonne,49.570064,3.892236,found
+Saint-Erme,49.534138,3.83538,validated
+Fraillicourt,49.664575,4.162483,found
+Epernay,49.040236,3.960527,found
+Charleroi,50.416451,4.444998,corrected
+Pontavert,49.409946,3.821144,found
+Châlons,48.959603,4.368062,corrected
+Saint-Dizier,48.638926,4.957021,found
+Toul,48.672495,5.897372,corrected
+Delme,48.887765,6.390983,found
+Château-Salins,48.820539,6.501427,found
+Dieuze,48.811468,6.720321,found
+Sarreguemines,49.110922,7.07705,found
+Palatinat,49.196162,8.03175,corrected
+Reims,49.250948,4.055595,found
+Saint-Ingbert (Palatinat),49.270638,7.120013,corrected
+Rhein-Durkheim,48.590304,7.754415,review
+boulevard de la Madeleine,48.870062,2.324523,corrected

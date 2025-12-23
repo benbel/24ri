@@ -1,0 +1,308 @@
+original_name,matched_name,latitude,longitude,type,score,status
+Paris,A Paris 32160 Couloumé-Mondebat,43.643134,0.098172,locality,0.6717251948051948,found
+Aubervilliers,Aubervilliers,48.912878,2.386167,municipality,0.8260535064935064,found
+Bernay (Eure,2 Chemin de Lieurey 27300 Bernay,49.103211,0.58369,housenumber,0.43501356643356637,review
+gare des Batignolles,3 Rue des Batignolles 75017 Paris,48.883212,2.323584,housenumber,0.712280303030303,review
+Bernay,Bernay,49.089387,0.595349,municipality,0.6861324675324676,found
+Rethel,Rethel,49.509988,4.378836,municipality,0.684877012987013,found
+La Sabotterie,6 La Saboterie 41160 Saint-Hilaire-la-Gravelle,47.932723,1.184522,housenumber,0.8768094805194805,review
+Mézières,7 Mézière 37310 Dolus-le-Sec,47.165724,0.861642,housenumber,0.8414426262626261,review
+forêt de Saint-Michel,8 Rue Saint-michel de la Forêt 61300 Saint-Michel-Tubœuf,48.751772,0.689816,housenumber,0.6741236363636363,review
+Sambre,9 Rue de Sambre 59360 Catillon-sur-Sambre,50.073577,3.646101,housenumber,0.49626909090909094,review
+Anderlues,Rue d'Anderlues 84190 Gigondas,44.164063,5.005787,street,0.5403181818181818,review
+Thuin,Rue des Thuins 77163 Mortcerf,48.786712,2.917725,street,0.33598484848484844,review
+Avesnes,12 Rue Avesnes 02640 Saint-Simon,49.746081,3.17956,housenumber,0.6712433566433565,review
+Le Nouvion,Bat le Nouvion 62680 Méricourt,50.405546,2.881533,locality,0.6467787878787878,found
+Guise,Guise 45600 Sully-sur-Loire,47.718928,2.395428,locality,0.5564823376623376,found
+Audigny,Audigny,49.871104,3.643899,municipality,0.6267596969696969,found
+Origny-Sainte-Benoîte,Origny-Sainte-Benoite,49.83539,3.4997,municipality,0.8190974703557311,found
+Laon,Laon,49.570287,3.614719,municipality,0.4954090909090909,found
+Fismes,Fismes,49.308235,3.688225,municipality,0.6026445454545454,found
+vallée de la Marne,19 Rue de la Vallée 77140 Saint-Pierre-lès-Nemours,48.248142,2.689531,housenumber,0.6442817391304347,review
+pont de Verneuil,Route du Pont 16310 Verneuil,45.787997,0.707219,street,0.5889763636363635,review
+Bouquigny,Bouligny 50810 La Barre-de-Semilly,49.096244,-1.016241,street,0.38881853146853146,review
+Troissy,Troissy,49.080215,3.703603,municipality,0.6314796969696969,found
+pont,23 Pont Doré 97231 Le Robert,14.658923,-60.933506,housenumber,0.5475123140495867,review
+Marne,Marne 44680 Saint-Mars-de-Coutais,47.096564,-1.727034,street,0.5553041558441558,review
+Ville-sous-Orbais,La Ville-sous-Orbais,48.968761,3.678468,municipality,0.7480334632034632,found
+la Marne,La Marne 61600 Magny-le-Désert,48.586236,-0.317674,street,0.6674127272727272,review
+Monceau,27 Rue Monceau 57840 Ottange,49.443315,6.017594,housenumber,0.6772051748251748,review
+Saint-Bon,28 Rue Saint-bon 77390 Argentières,48.653501,2.868434,housenumber,0.7061466666666666,review
+Le Châtaignier,Le Chataignier 35340 La Bouëxière,48.175585,-1.459095,street,0.7886354545454545,review
+Monceau-les-Provins,Montceaux-lès-Provins,48.694647,3.444531,municipality,0.603100909090909,found
+Montmirail,31 Rue Montmirail 17000 La Rochelle,46.159022,-1.168395,housenumber,0.7475790909090908,review
+Dormans,Dormans,49.07008,3.64217,municipality,0.6373069696969696,found
+Château-Thierry,33 Rue Château Thierry 33700 Mérignac,44.828537,-0.615668,housenumber,0.8000489177489177,review
+Muizon,Muizon,49.274676,3.893424,municipality,0.5979054545454544,found
+Loivre,Loivre,49.344692,3.983219,municipality,0.5962472727272727,found
+bois de Brimont,Chemin du Bois de Brion 71210 Torcy,46.772726,4.433757,street,0.444590404040404,review
+bois du Chauffour,Chemin du Bois de Chauffour 77970 Pécy,48.653555,3.082974,street,0.5857425974025974,review
+route 44,38 Route de Béac 44600 Saint-Nazaire,47.242675,-2.290313,housenumber,0.4975740692640692,review
+Cauroy,Cauroy,49.347522,4.470832,municipality,0.5870381818181818,found
+Godat,Rue Goda 51400 Baconnes,49.159552,4.337643,street,0.38948636363636363,review
+Potence,La Potence 61260 Val-au-Perche,48.27104,0.784326,street,0.6135323966942149,review
+La Neuville,La Neuville 62390 Auxi-le-Château,50.243611,2.09719,street,0.7372797902097902,review
+Sapigneul,Rue de Sapigneul 02190 Condé-sur-Suippe,49.419886,3.95008,street,0.5123161497326203,review
+Canal de l'Aisne à la Marne,Chemin du Canal de Perrin 97111 Morne-à-l'Eau,16.303892,-61.512691,street,0.35852,review
+Berry-au-Bac,Berry-au-Bac,49.401196,3.900366,municipality,0.7392166233766233,found
+Jonchery,Jonchery,48.139064,5.077993,municipality,0.6625972727272726,found
+Arras,47 Rue d'Arras 59000 Lille,50.623112,3.067756,housenumber,0.5636686713286713,review
+Aix-Noulette,Aix-Noulette,50.424788,2.712577,municipality,0.7468984415584414,found
+Fosseux,Fosseux,50.255075,2.563621,municipality,0.6231569696969697,found
+Montenescourt,Montenescourt,50.292663,2.62819,municipality,0.7500181818181818,found
+Grand-Servin,Rue Roland Dervin 51170 Fismes,49.311621,3.681152,street,0.319988023715415,review
+Neuville-Saint-Waast,Neuville-Saint-Vaast,50.355266,2.757333,municipality,0.6725630303030303,found
+Houvin-Houvigneul,Houvin-Houvigneul,50.296927,2.375757,municipality,0.7855993301435406,found
+Souchez,Souchez,50.391452,2.742954,municipality,0.6369242424242424,found
+Sibiville,Sibiville,50.299992,2.324391,municipality,0.6778479338842975,found
+Sericourt,Séricourt,50.294002,2.315184,municipality,0.6738533884297521,found
+bois de la Folie,Les Bois de la Folie 89160 Jully,47.762881,4.324273,street,0.7127806926406925,review
+carrefour des Cinq-Chemins,Carrefour des Cinq Chemins 69130 Écully,45.78136,4.764336,locality,0.8543874025974026,found
+Roclincourt,Roclincourt,50.324194,2.785556,municipality,0.7246288811188811,found
+Xe,,,,,,not_found
+Rebreuviette,Rebreuviette,50.262733,2.365155,municipality,0.7344975324675325,found
+Frévent,Frévent 61260 Val-au-Perche,48.285199,0.77976,street,0.6429233333333333,review
+Guillaucourt (Somme,Guillaucourt,49.842844,2.630147,municipality,0.5221718181818181,found
+Foucaucourt,Rue de Foucaucourt 80980 Dompierre-Becquincourt,49.905008,2.791116,street,0.5621085167464114,review
+Lamotte-en-Santerre,Rue Lamotte en Santerre 76620 Le Havre,49.506833,0.121282,street,0.7725015151515151,review
+Herleville,Herleville,49.863216,2.750625,municipality,0.7007927272727272,found
+Maucourt,Maucourt,49.635263,3.072807,municipality,0.6561863636363635,found
+Lihons,Lihons,49.824348,2.76573,municipality,0.5910963636363635,found
+Gentelles,Gentelles,49.843523,2.454602,municipality,0.6855052066115702,found
+Rouvroy-en-Santerre,Rouvroy-en-Santerre,49.769342,2.710255,municipality,0.8148090909090908,found
+Roye,Roye,49.698122,2.781098,municipality,0.4889027272727272,found
+Rouvroy,Rouvroy,50.398005,2.904972,municipality,0.6422878787878787,found
+Saint-Bandry,Saint-Bandry,49.371079,3.164861,municipality,0.7342602597402597,found
+Cœuvres,Rue de Coeuvres 02290 Montigny-Lengrain,49.394364,3.114189,street,0.49387545454545456,review
+Laversine,Laversine,49.351973,3.170574,municipality,0.679203388429752,found
+Soissons,Soissons,49.377401,3.327152,municipality,0.6780227272727272,found
+Villers-Cotterêts,Villers-Cotterêts,49.250899,3.088746,municipality,0.8025911483253588,found
+Sainte- Menehould,Sainte-Menehould,49.099215,4.936022,municipality,0.790470303030303,found
+Verdun,verdun 91520 Égly,48.582106,2.225526,street,0.6223881818181818,review
+Triaucourt,Route de Triaucourt 55250 Vaubecourt,48.935865,5.111092,street,0.48619454545454543,review
+Dugny,Dugny,48.950148,2.421869,municipality,0.557075974025974,found
+caserne Bévaux,Impasse de La Caserne 23110 Évaux-les-Bains,46.174607,2.486813,street,0.3379012121212121,review
+Vaux,83 Les Vaux 35420 Louvigné-du-Désert,48.46946,-1.149205,housenumber,0.5805127272727273,review
+Hardaumont,Haraumont 28190 Saint-Luperce,48.449121,1.289868,street,0.5232177622377622,review
+vallée Levoncourt,Ruelle 55260 Levoncourt,48.824725,5.350488,street,0.5538809917355372,review
+Douaumont,Rue Douaumont 69100 Villeurbanne,45.78188,4.901415,street,0.6504864935064936,review
+bois de la Caillette,Rue de la Caillette 17580 Le Bois-Plage-en-Ré,46.188249,-1.395157,street,0.5896545454545454,review
+Sainte-Catherine,88 Rue Sainte-Catherine 33000 Bordeaux,44.83872,-0.573922,housenumber,0.8210725619834711,review
+Belleray,Belleray,49.131971,5.396004,municipality,0.6595172727272726,found
+Nixéville,Chemin de Nixeville 55100 Landrecourt-Lempire,49.098643,5.31278,street,0.43687999999999994,review
+Nançois-le-Petit,le Petit Sange 18330 Nançay,47.331768,2.158397,street,0.3987440067340067,review
+Spada,Spadda 20122 Quenza,41.765073,9.134278,locality,0.47650454545454546,found
+Ambly-sur-Meuse,Ambly-sur-Meuse,49.019567,5.443324,municipality,0.7686567379679143,found
+Eparges,Epargé 35690 Acigné,48.151262,-1.517316,street,0.5536286868686869,review
+Troyon,Troyon 29710 Peumerit,47.942001,-4.273385,street,0.6041254545454544,review
+La Selouse,La Selousière 53200 Gennes-Longuefuye,47.828806,-0.559365,street,0.4854790909090909,review
+Vaux-Chapitre,Chemin du Faux Chapitre 28150 Les Villages Vovéens,48.273462,1.631449,street,0.42044993006993003,review
+Fausses-Côtes,Les Fausses Vannes 21150 Hauteroche,47.487977,4.578408,locality,0.3738066798418972,found
+tranchée Deleau,99 Rue de la Tranchée 86000 Poitiers,46.574506,0.330641,housenumber,0.5613815151515151,review
+ravins du Bazil,100 Rue Marius Bazile 27130 Verneuil d'Avre et d'Iton,48.742697,0.907853,housenumber,0.3734780519480519,review
+Souville,A Souville 32300 Saint-Arroman,43.448052,0.517167,locality,0.6263078787878786,found
+Bezonvaux,Bezonvaux,49.229,5.475,municipality,0.606060606060606,found
+Marceau,103 Rue Marceau 91120 Palaiseau,48.704646,2.226779,housenumber,0.7145151948051948,review
+Plume,La Plume 15400 Riom-ès-Montagnes,45.297484,2.619241,street,0.4912427272727273,review
+Damloup,Damloup,49.20199,5.491666,municipality,0.562550909090909,found
+ravin du Bazil,106 Rue Marius Bazile 27130 Verneuil d'Avre et d'Iton,48.742825,0.90784,housenumber,0.34101051948051947,review
+Fontaines,Fontaines,46.851355,4.782208,municipality,0.6352569696969697,found
+Chambouillat,En Chambouille 39360 Chassal-Molinges,46.352095,5.758885,street,0.542449595959596,review
+Grands-Houyers,,,,,,not_found
+Woëvre,la Woevre 55140 Vaucouleurs,48.582241,5.676766,street,0.5325514049586776,review
+bois de la Plume,Rue du Bois la Plume 10230 Mailly-le-Camp,48.666729,4.194254,street,0.6341344664031621,review
+bois de la Haute-Charrière,Rue de la Charrière des Bois 95780 La Roche-Guyon,49.082776,1.63227,street,0.5832872727272727,review
+Lahile,Lahile 47180 Couthures-sur-Garonne,44.520662,0.069394,locality,0.5300750505050504,found
+Gondrecourt,Gondrecourt-Aix,49.245832,5.767717,municipality,0.5237359595959595,found
+Lunéville,Lunéville,48.593492,6.497808,municipality,0.6455842424242423,found
+Marats-la-Grande,Rue du Marais 59680 Ferrière-la-Grande,50.251997,3.989355,street,0.4072689898989899,review
+Condé-en-Barrois,Chemin de Louppy à Condé En Barro 55000 Les Hauts-de-Chée,48.866124,5.160414,locality,0.3719476167076167,found
+Tréveray,Tréveray 22150 Plœuc-L'Hermitage,48.328966,-2.746144,street,0.6233487603305785,review
+Saint-Amand,119 Rue Saint Amand 76490 Rives-en-Seine,49.514326,0.772245,housenumber,0.7600770707070706,review
+Void,120 Voie 2430 83000 Toulon,43.154843,5.906943,housenumber,0.48299496503496503,review
+Serres,Serres 84200 Carpentras,44.084204,5.070579,street,0.5501941414141414,review
+Maixe,Maixe,48.643743,6.441884,municipality,0.4768754545454545,found
+Deuxville,Deuxville,48.617333,6.454645,municipality,0.6281969696969696,found
+Crévic,Crévic,48.639187,6.405629,municipality,0.5312077777777778,found
+Pont-Saint-Vincent,Pont-Saint-Vincent,48.606575,6.096068,municipality,0.7649743722943723,found
+La Ferté-Gaucher,La Ferté Gaucher 77320 La Ferté-Gaucher,48.781325,3.305744,locality,0.7543560765550238,found
+Sézanne,Sézanne,48.718482,3.721712,municipality,0.5788763636363636,found
+Blesmes,Blesmes,49.038311,3.44725,municipality,0.5684854545454544,found
+Courboin,Courboin 37340 Avrillé-les-Ponceaux,47.401663,0.359493,street,0.6065560330578512,review
+Montbazin,Montbazin,43.515435,3.697092,municipality,0.6373151515151514,found
+Épieds,Epieds 77120 Beautheil-Saints,48.793507,3.054073,street,0.5502159595959596,review
+Villers-sur-Fère,Villers-sur-Fère,49.178471,3.531405,municipality,0.7411360765550239,found
+Villemoyenne,Villemoyenne 02130 Fère-en-Tardenois,49.178471,3.501001,street,0.7041875757575756,review
+Dravegny,Dravegny,49.232244,3.639633,municipality,0.595815123966942,found
+Vesle,135 Rue de Vesle 51100 Reims,49.252124,4.02529,housenumber,0.557860303030303,review
+Baslieux-lès-Fismes,Baslieux-lès-Fismes,49.325127,3.711741,municipality,0.7653698347107438,found
+Villette,Villette 60700 Pont-Sainte-Maxence,49.331293,2.612102,street,0.630594214876033,review
+Arcis-le-Ponsart,Arcis-le-Ponsart,49.235162,3.694881,municipality,0.7384815311004784,found
+Chamigny,Chamigny,48.977834,3.150625,municipality,0.6065560330578512,found
+Bussières,140 La Bussière 18250 Neuvy-Deux-Clochers,47.270856,2.690259,housenumber,0.7005657575757575,review
+Bassevelles,Bassevelle,48.92371,3.273313,municipality,0.6065174025974026,found
+Tanqueux,Rue de Tanqueux 77260 Chamigny,48.967906,3.145432,street,0.4750311229946524,review
+Vierzy,Vierzy,49.292103,3.27317,municipality,0.527069595959596,found
+Couvrelles,Couvrelles,49.335569,3.486741,municipality,0.6479815384615384,found
+Augy,Augy,47.771716,3.61499,municipality,0.41585857142857136,found
+Vasseny,Vasseny,49.353446,3.486606,municipality,0.5647009090909091,found
+Chemin des Dames,147 Chemin des Dames 34590 Marsillargues,43.661635,4.179687,housenumber,0.9568054545454545,review
+la ferme Certeaux,148 Route du Certeau 38290 Frontonas,45.650018,5.182726,housenumber,0.40312194805194806,review
+Ailette,Rue de l'Ailette 60200 Compiègne,49.402262,2.825095,street,0.40494353535353533,review
+quartier Berthier,Square berthier 13011 Marseille,43.294111,5.433968,street,0.48287533596837945,review
+Dragonne,Le Dragon 26100 Romans-sur-Isère,45.044748,5.044776,locality,0.46504860139860144,found
+Rochefort,Rochefort 61800 Tinchebray-Bocage,48.755313,-0.717625,street,0.6469615151515151,review
+Certeaux,Le Certeau 02000 Laniscourt,49.55084,3.539014,street,0.5121004895104895,review
+Chevregny,Chevregny,49.47161,3.591836,municipality,0.6250115151515151,found
+La Royère,La Royere 84240 La Tour-d'Aigues,43.720688,5.55375,street,0.6454787878787878,review
+Maast-et-Violaine,Maast-et-Violaine,49.286064,3.449963,municipality,0.7446090909090909,found
+Révillon,Les Revillonnes 89240 Diges,47.742507,3.396448,locality,0.4576365775401069,found
+Hurtebise,Hurtebise 59620 Aulnoye-Aymeries,50.21774,3.818347,street,0.6454378787878787,review
+plateau de Paissy,Route du plateau d'assy 74190 Passy,45.928387,6.684385,street,0.43318336898395715,review
+plateau de Californie,Rue Hameau de Californie 86400 Civray,46.148473,0.302292,street,0.5141136656891495,review
+grottes de Mai,Rue des Grottes 53340 Saulges,47.983425,-0.402946,street,0.5358254545454545,review
+Serval-Barbonval,Rue de Barbonval 02160 Blanzy-lès-Fismes,49.33829,3.671656,street,0.36547849529780563,review
+Cerny,le cerny 85170 Le Poiré-sur-Vie,46.799152,-1.478166,street,0.503630909090909,review
+Bourg,164 Le Bourg 47430 Le Mas-d'Agenais,44.409049,0.213616,housenumber,0.709723388429752,review
+Commun,Le Commun 35150 Piré-Chancé,48.02098,-1.456944,street,0.5363768595041322,review
+Paissy,Paissy,49.424786,3.70348,municipality,0.5200877777777778,found
+Œuilly,Œuilly,49.07089,3.796335,municipality,0.5695227272727272,found
+Beuvardes,Beuvardes,49.139942,3.488547,municipality,0.631121515151515,found
+Fresnes,Fresnes,48.757544,2.324537,municipality,0.5872127272727272,found
+Fère – Saponay,Rue de Fere 02130 Saponay,49.213879,3.482852,street,0.5533677922077921,review
+Montdidier,Montdidier 35630 Hédé-Bazouges,48.314923,-1.784952,street,0.6711733566433565,review
+Remaugies,Remaugies,49.627638,2.665993,municipality,0.6234960606060604,found
+Saint-Quentin,Saint-Quentin,49.847398,3.28745,municipality,0.7262699999999999,found
+Ercheu,Ercheu,49.704502,2.947922,municipality,0.530190505050505,found
+Dury,Dury,49.858514,2.274577,municipality,0.4177076623376623,found
+Ollezy,Ollezy,49.733653,3.144167,municipality,0.5234541414141415,found
+Saint-Simon,saint simon 44450 Divatte-sur-Loire,47.289813,-1.369983,street,0.6910051948051947,review
+Raulieu,Aulieu 31560 Nailloux,43.350178,1.61156,street,0.4905690909090909,review
+cathédrale de Saint-Quentin,Route de la Cathédrale 20217 Saint-Florent,42.679732,9.305971,street,0.5138762790697674,review
+bois du Sphynx,,,,,,not_found
+Grand-Séraucourt,Seraucourt-le-Grand,49.781364,3.21154,municipality,0.5782524110671937,found
+Artemps,Artemps,49.763977,3.191394,municipality,0.5672909090909091,found
+route de Saint-Quentin,Route de Saint Quentin 38430 Moirans,45.319495,5.551439,street,0.8166490909090908,review
+Pire-Aller,Rue du Pire Aller 62132 Fiennes,50.821416,1.826218,street,0.5150452631578947,review
+Somme,La Somme 23500 Poussanges,45.818899,2.211037,street,0.4755681818181817,review
+Oestres,Rue d’Oestres 02680 Dallon,49.822741,3.245288,street,0.4643542424242424,review
+Gauchy,Gauchy,49.826081,3.280949,municipality,0.5389495959595959,found
+Grugies,Grugies,49.813366,3.265785,municipality,0.5728772727272726,found
+Dallon,Dallon,49.825987,3.240651,municipality,0.5276614141414141,found
+Noyon,190 Rue de Noyon 60190 Remy,49.436716,2.709543,housenumber,0.5333566666666667,review
+Quesmy,Quesmy,49.633038,3.059177,municipality,0.5235332323232323,found
+Salency,Salency,49.588166,3.04764,municipality,0.5713963636363636,found
+Mailly,Mailly,46.223888,4.114319,municipality,0.5228323232323232,found
+camp de Sainte-Tanche,Rue Sainte Tanche 10700 Lhuître,48.569599,4.252323,street,0.5251777622377621,review
+secteur des Hurlus,Parking Secteur des Hotels 33300 Bordeaux,44.88828,-0.564905,locality,0.41305035812672175,found
+Chavannes,Chavannes 37140 Benais,47.313952,0.199179,street,0.6435324242424242,review
+Vitry-la-Ville,Vitry-la-Ville,48.841614,4.455771,municipality,0.7170853475935828,found
+Somme-Suippes,Somme-Suippe,49.117914,4.578358,municipality,0.64838,found
+Tahure,Rue de Tahure 76620 Le Havre,49.513392,0.123119,street,0.42528636363636363,review
+plateau de la Pie,Rue du Plateau 44770 Préfailles,47.1271,-2.217511,street,0.4371187351778656,review
+camp F.,Camp Cros 13450 Grans,43.605738,5.064722,street,0.4159969696969697,review
+Perthes,Perthes,48.483896,2.533875,municipality,0.575181818181818,found
+butte de Souain,Route de Souain 51600 Suippes,49.135094,4.534769,street,0.5880345454545455,review
+Pont-Sainte-Maxence,Pont-Sainte-Maxence,49.309303,2.60379,municipality,0.7816307438016529,found
+Verderonne,Verderonne,49.327464,2.492058,municipality,0.6525333566433567,found
+Cinqueux,Cinqueux,49.318343,2.532266,municipality,0.6071687603305785,found
+Cernoy,Cernoy,49.441073,2.537995,municipality,0.5259377777777777,found
+Trois-Etots,Trois Étots 60190 Cernoy,49.44865,2.535251,street,0.6733879220779221,review
+La Montagne,209 montagne 44390 Les Touches,47.437366,-1.476361,housenumber,0.760053896103896,review
+Hémévillers,Hémévillers,49.466321,2.669684,municipality,0.6723242857142857,found
+Elogette,Elogette 60190 Rouvillers,49.438875,2.610935,street,0.6065278512396693,review
+Neufvy,Rue de Neufvy 60190 Gournay-sur-Aronde,49.493809,2.673137,street,0.3985190909090909,review
+Saint-Maur,213 Rue Saint-Maur 75010 Paris,48.87286,2.370902,housenumber,0.7588198930481281,review
+Gournay,Gournay 50620 Tribehou,49.207379,-1.22618,street,0.5819727272727272,review
+bois du Grand-Cheval,Impasse du Bois Cheval 71600 Poisson,46.374104,4.12196,street,0.4530224242424242,review
+bois de Ressons,Bois de Tessone 30120 Molières-Cavaillac,43.965363,3.58227,locality,0.5052977489177489,found
+Aronde,l'Aronde 53170 Ruillé-Froid-Fonds,47.89821,-0.645336,street,0.5725190909090908,review
+route de Compiègne,Route de Compiegne 60800 Crépy-en-Valois,49.243045,2.881758,street,0.7853107359307359,review
+Ressons,Resson 10400 La Saulsotte,48.552087,3.492807,locality,0.4823745454545454,found
+Canny-sur-Matz,Canny-sur-Matz,49.602124,2.79893,municipality,0.7175835294117646,found
+La Berlière,la Berlière 79310 Saint-Pardoux-Soutiers,46.567601,-0.305611,street,0.6880651948051948,review
+Villers,Villers 77120 Beautheil-Saints,48.770323,3.097346,street,0.5915736363636362,review
+le Haut Matz,Le Marais du Haut Matz 60490 Ricquebourg,49.5622,2.751966,locality,0.42402181818181817,found
+bois des Loges,Bois des Loges 91410 Saint-Cyr-sous-Dourdan,48.557624,2.050837,locality,0.724557165775401,found
+le Matz,le Matz 44260 Savenay,47.36785,-1.944331,street,0.5952154545454545,review
+ferme de Canny,Ferme de Canny 60310 Canny-sur-Matz,49.607179,2.78624,street,0.7207344385026736,review
+bois du Verlot,Route du Bois Vélot 03120 Servilly,46.286522,3.585216,street,0.5037064822134386,review
+Lassigny,Lassigny,49.595024,2.845555,municipality,0.6065714876033057,found
+orme de Canny,Avenue des 3 Ormes 66680 Canohès,42.658878,2.840979,street,0.34451149560117295,review
+bois de Canny,Rue du Bois Cany 76120 Le Grand-Quevilly,49.417888,1.051476,street,0.5560163636363636,review
+La Divette,la Divette 49560 Lys-Haut-Layon,47.115333,-0.488824,street,0.6682197202797202,review
+tour Rolland,Rue de la Tour Roland 60310 Lassigny,49.589206,2.837438,street,0.4606193939393939,review
+Lataule,Lataule,49.541154,2.680288,municipality,0.5622218181818182,found
+Montmartin,Montmartin 77120 Mouroux,48.827872,3.024046,locality,0.6669724475524474,found
+Fresnières,Fresnières,49.622923,2.813712,municipality,0.6474460839160838,found
+Haussu,Haussu 60310 Amy,49.623248,2.829244,street,0.5338568686868687,review
+Catigny,Catigny,49.637121,2.955561,municipality,0.5641154545454544,found
+Cuvilly,Cuvilly,49.553092,2.695049,municipality,0.5697163636363636,found
+Chézy,Chézy,46.603235,3.479875,municipality,0.47400545454545456,found
+Acy,Acy,49.350997,3.409817,municipality,0.3901136363636364,found
+Bonneil,Bonneil,49.00552,3.347565,municipality,0.5674499999999999,found
+Coincy,Coincy,49.166851,3.420158,municipality,0.5325923232323232,found
+Villeneuve-sur-Fère,Villeneuve-sur-Fère,49.175922,3.475374,municipality,0.7645489256198347,found
+Mont-Notre-Dame,Mont-Notre-Dame,49.291718,3.576586,municipality,0.7321379797979798,found
+canal de l'Aisne,Rue du Canal de l'Aisne 51150 Condé-sur-Marne,49.047921,4.183267,street,0.6213736363636363,review
+Vieil-Arcy,Rue de Vieil Arcy 02160 Pont-Arcy,49.389484,3.625973,street,0.5047261722488038,review
+Hautes-Bruyères,Hautes Bruyères 08290 Blanchefosse-et-Bay,49.760791,4.268092,street,0.7318216161616161,review
+Paars,Paars,49.327407,3.60099,municipality,0.4757281818181818,found
+Seringes,Rue de Seringes 02130 Fère-en-Tardenois,49.199164,3.520083,street,0.4732793048128342,review
+Cohan,Cohan 35590 Saint-Gilles,48.135949,-1.886527,street,0.49184363636363626,review
+Saint-Gilles,Saint Gilles 68920 Wintzenheim,48.075155,7.263566,street,0.7161675757575757,review
+Courlandon,Courlandon,49.312406,3.735364,municipality,0.650377902097902,found
+Meurival,Meurival,49.358243,3.761284,municipality,0.592204214876033,found
+Aisne,Aisne 44570 Trignac,47.322551,-2.220149,locality,0.49368636363636353,found
+Grand-Hameau,Le Grand Hameau 50390 Biniville,49.431542,-1.485708,street,0.6715785026737968,review
+Baslieux,Baslieux,49.435545,5.755326,municipality,0.6019714876033057,found
+l'Aisne,Rue de l'Aisne 75019 Paris,48.890644,2.382549,street,0.455010909090909,review
+Romain,258 Voie Romaine 06190 Roquebrune-Cap-Martin,43.753494,7.435249,housenumber,0.5984581818181818,review
+Breuil,Le Breuil 37300 Joué-lès-Tours,47.339092,0.625881,street,0.5497586776859503,review
+Unchair,Unchair,49.290315,3.747578,municipality,0.5643345454545454,found
+Courville,Courville 72140 Rouez,48.138671,-0.084942,street,0.6346642424242424,review
+10,N 10 78660 Ablis,48.530176,1.828102,locality,0.3386748484848484,found
+Concevreux,Concevreux,49.375427,3.780278,municipality,0.6497051748251748,found
+ferme Rouette,Route des 4 Fermes 76110 Saint-Sauveur-d'Émalleville,49.602358,0.304356,street,0.43539146245059285,review
+Trois-Peupliers,Moulin des Trois Peupliers 11360 Fontjoncouse,43.056883,2.810691,street,0.5076966233766234,review
+Cuiry-les-Chaudardes,Cuiry-lès-Chaudardes,49.386583,3.76998,municipality,0.7660799604743083,found
+route de Pontavert,Route de Pontavert 02160 Craonne,49.439438,3.788257,street,0.7625834632034632,review
+bois des Couleuvres,Rue des Bois de Couleur 97450 Saint-Louis,-21.286551,55.418407,street,0.5305503448275862,review
+bois de Beau-Marais,Rue du Beau Marais 62100 Calais,50.944462,1.900793,street,0.5252181818181818,review
+Corbeny,Corbeny,49.464115,3.824721,municipality,0.5711318181818181,found
+Berrieux,Berrieux,49.487922,3.846598,municipality,0.597123305785124,found
+château de Belval,Château de Belval 88210 Le Saulcy,48.409771,7.044728,street,0.7513563636363636,review
+Goudelancourt,Rue de Goudelancourt 02350 Bucy-lès-Pierrepont,49.647717,3.899579,street,0.5668473553719008,review
+Sissonne,Sissonne,49.570064,3.892236,municipality,0.6082114876033057,found
+Maison-Bleue,Maison bleue 40090 Cère,43.993355,-0.546843,locality,0.6922684848484848,found
+Thuillots,Lieu-dit Thuillot 90400 Vézelois,47.615119,6.895141,locality,0.39332181818181816,found
+bois Bas,Bois Bas 42520 Roisey,45.405243,4.657105,locality,0.6081087603305785,found
+Hundingstellung,,,,,,not_found
+La Selve,La Selve 31370 Savères,43.37364,1.116297,street,0.6060960330578512,review
+Maison-Blanche,Maison Blanche 35132 Vezin-le-Coquet,48.117718,-1.727764,street,0.7395135294117646,review
+château de la Garenne,Chateau de la Garenne 60129 Glaignes,49.266171,2.847654,street,0.7825748484848485,review
+buisson Riquette,Rue de Roquette Buisson 65400 Argelès-Gazost,43.004115,-0.102322,street,0.4686361038961039,review
+Petit-Simon-le-Grand,Le Petit Bois Simon 37800 Pussigny,46.983703,0.559885,street,0.44523155844155843,review
+Saint-Erme,Rue de Saint-erme 02820 Montaigu,49.534138,3.83538,street,0.5177307177033492,review
+Renneville,Renneville,49.401142,1.324173,street,0.6612842657342656,review
+Fraillicourt,Fraillicourt,49.664575,4.162483,municipality,0.6851230303030302,found
+Epernay,Épernay,49.040236,3.960527,municipality,0.5859154545454545,found
+Charleroi,288 la Charlerie 37340 Hommes,47.408526,0.253159,housenumber,0.5655248128342246,review
+Pontavert,Pontavert,49.409946,3.821144,municipality,0.6302042424242423,found
+Châlons,Chalons 40230 Saint-Vincent-de-Tyrosse,43.667668,-1.286128,street,0.5863363636363635,review
+Saint-Dizier,Saint-Dizier,48.638926,4.957021,municipality,0.7072875757575757,found
+Toul,Ty Toul 29450 Sizun,48.4317,-4.075132,street,0.44375585858585853,review
+Delme,Delme,48.887765,6.390983,municipality,0.48159818181818176,found
+Château-Salins,Château-Salins,48.820539,6.501427,municipality,0.7253726203208555,found
+Dieuze,Dieuze,48.811468,6.720321,municipality,0.5361277777777778,found
+Sarreguemines,Sarreguemines,49.110922,7.07705,municipality,0.7219136363636364,found
+Palatinat,Rue du Palatinat 57070 Metz,49.115195,6.232136,street,0.5140709090909091,review
+Saint-Ingbert,Saint-Martin 83300 Draguignan,43.531387,6.502383,street,0.36875909090909087,review
+Reims,Reims,49.250948,4.055595,municipality,0.5045163636363637,found
+canal de la Marne à l'Aisne,Chemin du Canal de Perrin 97111 Morne-à-l'Eau,16.303892,-61.512691,street,0.3524593939393939,review
+la Meuse,Rue de la Meuse 31500 Toulouse,43.582776,1.484166,street,0.49544385026737964,review
+Saint-Ingbert (Palatinat),Rue Palatin 31790 Saint-Jory,43.742343,1.376765,street,0.39658812834224594,review
+19,N 19 77170 Brie-Comte-Robert,48.677657,2.648528,locality,0.34597030303030296,found
+Rhein-Durkheim,Rue Strauss-Durkheim 67000 Strasbourg,48.590304,7.754415,street,0.32425389610389604,review
+Deux-Ponts,Les Deux Ponts 04600 Château-Arnoux-Saint-Auban,44.091504,5.986195,locality,0.6051418181818181,found
+boulevard de la Madeleine,306 Boulevard de la Madeleine 06000 Nice,43.709809,7.228691,housenumber,0.9904827272727272,review

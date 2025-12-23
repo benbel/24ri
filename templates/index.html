@@ -93,11 +93,11 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
         const chunks = {{ chunks_json | safe }};
+        const allPlaces = {{ all_places_json | safe }};
         let currentIndex = 0;
         let map;
-        let markers = [];
-        let pathLine = null;
-        let pathCoords = [];
+        let activeMarkers = [];
+        let inactiveMarkers = [];
 
         function initMap() {
             map = L.map('map', { zoomControl: false }).setView([48.8, 2.5], 6);
@@ -114,25 +114,30 @@
                 attribution: 'IGN'
             }).addTo(map);
 
+            // Add all places as inactive markers initially
+            addAllInactiveMarkers();
+
             showChunk(0);
         }
 
-        function clearMarkers() {
-            markers.forEach(m => map.removeLayer(m));
-            markers = [];
+        function addAllInactiveMarkers() {
+            allPlaces.forEach(p => {
+                const marker = L.circleMarker([p.latitude, p.longitude], {
+                    radius: 6,
+                    fillColor: '#888',
+                    color: '#fff',
+                    weight: 1,
+                    fillOpacity: 0.5,
+                    opacity: 0.5
+                }).addTo(map);
+                marker.placeKey = `${p.latitude},${p.longitude}`;
+                inactiveMarkers.push(marker);
+            });
         }
 
-        function drawPath() {
-            // Draw solid path without arrows
-            if (pathCoords.length < 2) return;
-
-            if (pathLine) map.removeLayer(pathLine);
-
-            pathLine = L.polyline(pathCoords, {
-                color: '#8b0000',
-                weight: 3,
-                opacity: 0.8
-            }).addTo(map);
+        function clearActiveMarkers() {
+            activeMarkers.forEach(m => map.removeLayer(m));
+            activeMarkers = [];
         }
 
         function showChunk(index) {
@@ -149,75 +154,62 @@
                 `Chapitre ${chunk.chapter_number}: ${chunk.chapter_title}`;
             document.getElementById('current-date').textContent = chunk.date || '';
 
-            // Render chunk text with highlighted places
+            // Render chunk text with highlighted places and dates
             renderText(chunk);
 
-            // Update map if we have places
-            if (chunk.places && chunk.places.length > 0) {
-                updateMap(chunk);
-            }
+            // Update map
+            updateMap(chunk);
         }
 
         function renderText(chunk) {
             const container = document.getElementById('text-container');
-            const text = chunk.text || '';
-            const places = chunk.places || [];
-            const dates = chunk.dates || [];
+            let html = chunk.text || '';
 
-            let html = text;
+            // Replace {{date}} with highlighted span (remove markers)
+            html = html.replace(/\{\{([^}]+)\}\}/g, '<span class="date-name">$1</span>');
 
-            // Deduplicate and sort dates by length (longest first)
-            const uniqueDates = [...new Set(dates)].sort((a, b) => b.length - a.length);
+            // Replace [[place]] with highlighted span (remove markers)
+            html = html.replace(/\[\[([^\]]+)\]\]/g, '<span class="place-name">$1</span>');
 
-            // Replace dates with highlighted versions
-            uniqueDates.forEach(d => {
-                const escaped = d.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-                html = html.replace(
-                    new RegExp(`(${escaped})(?![^<]*>)`, 'gi'),
-                    '<span class="date-name">$1</span>'
-                );
-            });
+            // Replace French quotes with italic text
+            html = html.replace(/«\s*([\s\S]*?)\s*»/g, '« <em>$1</em> »');
 
-            // Deduplicate and sort places by text length (longest first)
-            const placeTexts = [...new Set(places.map(p => p.text))].sort((a, b) => b.length - a.length);
-
-            // Replace place names with highlighted versions
-            placeTexts.forEach(name => {
-                const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-                html = html.replace(
-                    new RegExp(`(${escaped})(?![^<]*>)`, 'gi'),
-                    '<span class="place-name">$1</span>'
-                );
-            });
+            // Replace newlines with <br> for line breaks
+            html = html.replace(/\n/g, '<br>');
 
             container.innerHTML = `<div class="paragraph">${html}</div>`;
             container.scrollTop = 0;
         }
 
         function updateMap(chunk) {
-            clearMarkers();
+            clearActiveMarkers();
 
-            const places = chunk.places.filter(p => p.geocoded);
+            // Get current chunk's place coordinates
+            const chunkPlaceKeys = new Set();
+            const places = (chunk.places || []).filter(p => p.geocoded);
+            places.forEach(p => {
+                chunkPlaceKeys.add(`${p.geocoded.latitude},${p.geocoded.longitude}`);
+            });
+
+            // Update inactive markers opacity
+            inactiveMarkers.forEach(m => {
+                if (chunkPlaceKeys.has(m.placeKey)) {
+                    m.setStyle({ fillOpacity: 0, opacity: 0 }); // Hide, will be replaced by active
+                } else {
+                    m.setStyle({ fillOpacity: 0.5, opacity: 0.5 }); // Show as inactive
+                }
+            });
+
             if (places.length === 0) return;
 
             const bounds = [];
 
-            // Add new points to path
-            places.forEach(p => {
-                const lat = p.geocoded.latitude;
-                const lon = p.geocoded.longitude;
-                pathCoords.push([lat, lon]);
-                bounds.push([lat, lon]);
-            });
-
-            // Draw solid path (no arrows)
-            drawPath();
-
-            // Add markers for current chunk's places
+            // Add active markers for current chunk's places
             places.forEach(p => {
                 const lat = p.geocoded.latitude;
                 const lon = p.geocoded.longitude;
                 const name = p.display_name || p.text;
+                bounds.push([lat, lon]);
 
                 const marker = L.circleMarker([lat, lon], {
                     radius: 8,
@@ -228,14 +220,34 @@
                 }).addTo(map);
 
                 marker.bindTooltip(name, { permanent: true, direction: 'top', offset: [0, -8] });
-                markers.push(marker);
+                activeMarkers.push(marker);
             });
 
-            // Fit bounds
+            // Fit bounds to active places (2-step animation)
+            let targetZoom, targetCenter;
             if (bounds.length === 1) {
-                map.setView(bounds[0], 11, { animate: true });
+                targetZoom = 11;
+                targetCenter = bounds[0];
             } else {
-                map.fitBounds(bounds, { padding: [60, 60], maxZoom: 12, animate: true });
+                const boundsObj = L.latLngBounds(bounds);
+                targetCenter = boundsObj.getCenter();
+                targetZoom = Math.min(12, map.getBoundsZoom(boundsObj, false, [60, 60]));
+            }
+
+            const currentZoom = map.getZoom();
+
+            if (targetZoom < currentZoom) {
+                // Zooming out: first dezoom, then move
+                map.setZoom(targetZoom, { animate: true, duration: 4 });
+                setTimeout(() => {
+                    map.panTo(targetCenter, { animate: true, duration: 2 });
+                }, 2000);
+            } else {
+                // Zooming in: first move, then zoom
+                map.panTo(targetCenter, { animate: true, duration: 2 });
+                setTimeout(() => {
+                    map.setZoom(targetZoom, { animate: true, duration: 4 });
+                }, 2000);
             }
         }
 
@@ -247,12 +259,6 @@
 
         function prev() {
             if (currentIndex > 0) {
-                // Remove last places from path
-                const chunk = chunks[currentIndex];
-                if (chunk.places) {
-                    const count = chunk.places.filter(p => p.geocoded).length;
-                    pathCoords = pathCoords.slice(0, -count);
-                }
                 showChunk(currentIndex - 1);
             }
         }
